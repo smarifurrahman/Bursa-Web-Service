@@ -215,5 +215,10 @@ h1,h2,h3,h4,h5,h6 {
   .pricing-card {
     padding: 1rem;
   }
+  
+  #cta {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
 }
