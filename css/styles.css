@@ -1,0 +1,199 @@
+/* Global */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+.container-fluid {
+  padding: 3% 15% ;
+}
+
+/* Heading */
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+/* Section */
+
+.colored-section {
+  background-color: #40514e;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* heading */
+
+.main-section {
+  text-align: left;
+}
+
+/* Download button */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.mainimg {
+  width: 70%;
+  transform: rotate(16deg);
+  position: absolute;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  margin-right: 0px;
+  margin-left: 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.f-icon {
+  color: #667371;
+  padding: 1rem 0;
+}
+
+.f-icon:hover {
+  color: #40514e;
+}
+
+.f-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.f-text {
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials .container-fluid{
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 3rem;
+}
+
+.pack-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  padding: 6% 20%;
+}
+
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+/* partner */
+
+.partner-all {
+  padding: 80px;
+}
+
+.logo {
+  height: 3rem;
+  margin: 10px;
+}
+
+.partner {
+  padding: 20px;
+}
+
+/* Footer */
+
+#footer {
+  padding: 4% 20%;
+}
+
+.footer-link {
+  margin: 20px 10px;
+}
+
+.copyright {
+  margin: 8px;
+}
+
+@media (max-width:991px) {
+
+  .nav-item {
+    text-align: right;
+  }
+
+  .heading-section {
+    text-align: center;
+  }
+
+  .mainimg {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
