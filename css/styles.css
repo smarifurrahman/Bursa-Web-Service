@@ -222,6 +222,10 @@ h1,h2,h3,h4,h5,h6 {
     padding-right: 40px;
   }
   
+  .cta-text {
+    font-weight: 600;
+  }
+  
   .partner-all {
     padding: 50px 20px;
   }
