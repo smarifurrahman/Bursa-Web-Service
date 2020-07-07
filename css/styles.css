@@ -129,6 +129,10 @@ h1,h2,h3,h4,h5,h6 {
   padding: 3rem;
 }
 
+.pricing-card {
+  margin: 0;
+}
+
 .pack-title {
   font-size: 2.5rem;
   line-height: 1.5;
