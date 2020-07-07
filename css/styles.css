@@ -188,11 +188,15 @@ h1,h2,h3,h4,h5,h6 {
 @media (max-width:991px) {
   
   .heading {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .main-s-element {
     padding: 0;
+  }
+  
+  .all-h2 {
+    font-size: 1.7rem;
   }
 
   .nav-item {
