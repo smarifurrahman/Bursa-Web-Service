@@ -188,8 +188,8 @@ h1,h2,h3,h4,h5,h6 {
 @media (max-width:991px) {
   
   .heading {
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
   }
 
   .main-s-element {
@@ -197,7 +197,7 @@ h1,h2,h3,h4,h5,h6 {
   }
   
   .all-h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .nav-item {
@@ -223,7 +223,7 @@ h1,h2,h3,h4,h5,h6 {
   }
   
   .cta-text {
-    font-weight: 600;
+    font-weight: 700;
   }
   
   .partner-all {
@@ -231,3 +231,21 @@ h1,h2,h3,h4,h5,h6 {
   }
 
 }
+
+@media (max-width:767px) {
+
+  .heading {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .all-h2 {
+    font-size: 1.6rem;
+  }
+
+  .cta-text {
+    font-weight: 600;
+  }
+
+}
+
